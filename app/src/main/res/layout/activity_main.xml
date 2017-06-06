@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.usuario.finalproyecto.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id='@+id/recyclerView'
+        android:layout_width="377dp"
+        android:layout_height="430dp"
+        tools:layout_editor_absoluteY="-84dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_x="-3dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="89dp"
+        android:layout_height="73dp"
+        android:layout_x="157dp"
+        android:layout_y="430dp"
+        android:background="@drawable/informacion"
+        android:clickable="true"
+        android:onClick="acercaDe"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="421dp" />
+</AbsoluteLayout>
